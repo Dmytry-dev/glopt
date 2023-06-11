@@ -8,9 +8,26 @@ header
         align-items: center
         padding-top: 24px
     .header_text_item
-        font-size: 15px
-        line-height: 16px
+        transition: all .6s
         color: $white
+        cursor: pointer
+    .header_text_wrapper
+        &:hover
+            content: " "
+            .header_text_item
+                color: $orange
+            .header_text_line
+                width: 100%
+    .header_text_line
+            transition: all .6s
+            display: block
+            height: 1px
+            width: 0%
+            background: $orange
+            margin: 0 auto
+            margin-top: 5px
+            cursor: pointer
+
     .header__telefon_wrapper
         display: flex
         flex-direction: column
@@ -27,3 +44,10 @@ header
     .header_img
         width: 96px
         height: 100px
+    .header_vertical_line
+        height: 23px
+        width: 1px
+        display: block
+        background: $white
+        opacity: .6
+        

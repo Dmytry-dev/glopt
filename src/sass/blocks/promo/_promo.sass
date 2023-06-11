@@ -4,10 +4,67 @@
     background: url(../img/Promo_back.png) center center/cover no-repeat
     transform: translateY(-125px)
     z-index: 1
+    padding: 180px 0 80px 0
+    text-align: center
     &::before
+        position: absolute
         content: " "
         display: block
         width: 100%
         height: 100%
         background: $black
-        opacity: 0.6
+        background: rgba(0, 0, 0, 0.6)
+        z-index: -1
+        transform: translateY(-180px)
+    &_top_text
+        font-weight: 300
+        color: $white
+    &_title
+        font-weight: 700
+        text-transform: uppercase
+        color: $orange
+        margin-top: 26px
+    &_subtitle
+        font-weight: 400
+        text-transform: uppercase
+        color: $white
+    &_horizontall_line
+        background: $white
+        display: block
+        width: 10px
+        height: 10px
+        border-radius: 100%
+        position: relative
+        margin: 0 auto
+        margin-top: 40px
+        &:before
+            content: ""
+            display: block
+            width: 360px
+            height: 1px
+            background: $white
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: 23px
+        &:after
+            content: ""
+            display: block
+            width: 360px
+            height: 1px
+            background: $white
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            right: 23px
+    &__wrapper
+        display: flex
+        justify-content: space-around
+        align-items: center
+        margin-top: 27px
+    &__item
+        width: 250px
+        &_text
+            color: $white
+            margin-top: 20px
+    
