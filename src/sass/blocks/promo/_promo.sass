@@ -1,10 +1,9 @@
 .promo
     position: relative
-    height: 650px
+    min-height: 650px
     background: url(../img/Promo_back.png) center center/cover no-repeat
-    transform: translateY(-125px)
     z-index: 1
-    padding: 180px 0 80px 0
+    padding-bottom: 80px
     text-align: center
     &::before
         position: absolute
@@ -15,7 +14,6 @@
         background: $black
         background: rgba(0, 0, 0, 0.6)
         z-index: -1
-        transform: translateY(-180px)
     &_top_text
         font-weight: 300
         color: $white
