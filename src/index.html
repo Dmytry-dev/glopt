@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    
     <link rel="icon" href="icon/Glopt_Promo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <section class="promo">
@@ -78,6 +79,7 @@
                     <div class="promo__item_text text_fz16">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг</div>
                 </div>
             </div>
+            <button class="button_big text_fz16">Получить расчет</button>
         </div>
     </section>
     <section class="work_glopt">
@@ -216,10 +218,98 @@
                     <input required name = 'name' type="text" class="feed_form__name form_item" placeholder = 'Ваше имя'>
                     <input required name = 'phone' type="number" class="feed_form__phone form_item" placeholder = 'Ваш номер телефона'>
                     <input required name = 'email' type="email" class="feed_form__email form_item" placeholder = 'Ваш Е-mail'>
+                    <div class="form__block_wrapper_button"><input type="submit" class="button_medium prices_submit_button" value = 'ОТПРАВИТЬ ЗАЯВКУ'></div>
                 </div>
-                <div class="form__block_wrapper_button"><input type="submit" class="button_medium prices_submit_button" value = 'ОТПРАВИТЬ ЗАЯВКУ' ></div>
             </div>
         </div>
     </section>
+    <section class="manager">
+        <div class="container">
+            <img src="icon/manager.png" alt="#" class="manager_icon">
+            <div class="manager_title text_fz26">Менеджеры компании</div>
+            <div class="manager_subtitle text_fz18">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.</div>
+        </div>
+    </section>
+    <section class="scheme">
+        <div class="container">
+            <div class="scheme_title text_fz26">Схема работы с нами</div>
+            <div class="scheme__wrapper">
+                <div class="scheme_item">
+                    <img src="icon/website.png" alt="#" class="scheme_item_img">
+                    <div class="scheme_item_text text_fz14"><span>Заявка</span><br>Вы оставляете заявку на нашем сайте или звоните нам</div>
+                </div>
+                <div class="scheme_item">
+                    <img src="icon/earth.png" alt="#" class="scheme_item_img">
+                    <div class="scheme_item_text text_fz14"><span>Аналитика доставки</span><br>Мы просчитываем варианты доставки Вашего груза</div>
+                </div>
+                <div class="scheme_item">
+                    <img src="icon/treaty.png" alt="#" class="scheme_item_img">
+                    <div class="scheme_item_text text_fz14"><span>Договор</span><br>Заключаем с Вами договор о поставке груза из Китая</div>
+                </div>
+                <div class="scheme_item">
+                    <img src="icon/stock.png" alt="#" class="scheme_item_img">
+                    <div class="scheme_item_text text_fz14"><span>Доставка на наш склад</span><br>Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад</div>
+                </div>
+                <div class="scheme_item">
+                    <img src="icon/register.png" alt="#" class="scheme_item_img">
+                    <div class="scheme_item_text text_fz14"><span>Проверка груза</span><br>Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе</div>
+                </div>
+                <div class="scheme_item">
+                    <img src="icon/three_boxes.png" alt="#" class="scheme_item_img">
+                    <div class="scheme_item_text text_fz14"><span>Доставка груза</span><br>Мы перевозим ваш груз до места назначения и производим таможенную очистку</div>
+                </div>
+                <div class="scheme_item">
+                    <img src="icon/wallet.png" alt="#" class="scheme_item_img">
+                    <div class="scheme_item_text text_fz14"><span>Оплата</span><br>Оплачиваете доставку груза при получении</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h2 class="reviews_title text_fz26">отзывы наших клиентов</h2>
+            <div class="reviews_horizontall_line"></div>
+            <div class="reviews_subtitle text_fz21">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
+            <div class="reviews__carousel">               
+                <div  id = 'first' class="reviews_item disabled-left">
+                    <img src="img/client3.png" alt="#" class="reviews_item_img">
+                    <div class="reviews_item_title text_fz18">Дмитрий Валиев</div>
+                    <div class="reviews_item_text text_fz14">Global Opt - мой надежный партнер в поиске и доставке товаров. Их быстрый поиск и анализ помогли мне много раз. Я заказывал через них как мелкие расходные материалы для бизнеса, так и крупные партии одежды. Всегда доволен их профессионализмом. Буду рекомендовать и продолжать пользоваться их услугами.</div>
+                </div>
+                <div id = 'second' class="reviews_item enabled">
+                    <img src="img/client1.png" alt="#" class="reviews_item_img">
+                    <div class="reviews_item_title text_fz18">Анисимова Ольга</div>
+                    <div class="reviews_item_text text_fz14">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
+                <div id = 'third' class="reviews_item disabled-right">
+                    <img src="img/client2.png" alt="#" class="reviews_item_img">
+                    <div class="reviews_item_title text_fz18">Наталья Быстрих</div>
+                    <div class="reviews_item_text text_fz14">Global Opt - надежная компания, которая приятно удивляет своим быстрым поиском и анализом товаров. Я неоднократно пользовалась их услугами и осталась довольна. Они помогли мне доставить расходные материалы для отеля и большие партии детской одежды. Качество обслуживания на высоком уровне, и я с уверенностью продолжу пользоваться их услугами в будущем.</div>
+                </div>
+                <button  id = 'left' class="slider__button"></button>
+                <button  id = 'right' class="slider__button"></button>
+            </div>
+        </div>
+    </section>
+    <section class="answer_form">
+        <div class="container">
+            <div class="answer_form__wrapper">
+                <div class="form__title_block">
+                    <div class="answer_form_title text_fz18">Остались вопросы?</div>
+                    <div class="answer_form_subtitle text_fz16">Напишите нам!</div>
+                </div>
+                <input required name = 'name' type="text" class="feed_form__name form_item" placeholder = 'Ваше имя'>
+                <input required name = 'phone' type="number" class="feed_form__phone form_item" placeholder = 'Ваш номер телефона'>
+                <input required name = 'email' type="email" class="feed_form__email form_item" placeholder = 'Ваш Е-mail'>
+                <textarea required name="text" id="textarea" placeholder = 'Ваш Е-mail'></textarea>
+                <div ><input type="submit" class="button_medium" value = 'ОТПРАВИТЬ ЗАЯВКУ'></div>
+            </div>
+        </div>
+    </section>
+    <div class = 'map' id = "map">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADsNyoPZXnptds6-K5C7qFjH-YLO32P5c&callback=initMap"></script>
 </body>
 </html>

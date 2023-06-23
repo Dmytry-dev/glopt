@@ -1,0 +1,73 @@
+.reviews
+    min-height: 470px
+    padding: 50px 0 65px 0
+    &_title
+        text-align: center
+        text-transform: uppercase
+    &_horizontall_line
+        width: 150px
+        height: 1px
+        background: $orange
+        display: block
+        margin: 0 auto
+        margin-top: 20px
+    &_subtitle
+        text-align: center
+        margin-top: 20px
+    &__carousel
+        margin-top: 30px
+        position: relative
+    &_item
+        position: absolute
+        display: block
+        width: 400px
+        &_img
+            display: block
+            width: 120px
+            height: 120px
+            border-radius: 100%
+            margin: 0 auto
+        &_title
+            text-align: center
+            font-weight: 700
+        &_text
+            text-align: justify
+    .slider__button
+        display: block
+        position: absolute
+        border: none
+        width: 15px
+        height: 45px
+    #left
+        background: url(../icon/left_arrow.png) center center/cover no-repeat
+        left: 40%
+        bottom: -80px
+        transform: translateX(-50%)
+    #right
+        background: url(../icon/right_arrow.png) center center/cover no-repeat
+        left: 60%
+        bottom: -80px
+        transform: translateX(-50%)
+
+.enabled
+    left: 50%
+    transform: translateX(-50%)
+.disabled-right
+    left: 100%
+    transform: translateX(-100%)
+    opacity: .5
+    .reviews_item_img
+        display: block
+        width: 90px
+        height: 90px
+        border-radius: 100%
+        margin: 0 auto
+.disabled-left
+    opacity: .5
+    .reviews_item_img
+        display: block
+        width: 90px
+        height: 90px
+        border-radius: 100%
+        margin: 0 auto
+ 
